@@ -16,6 +16,7 @@ TagManager:
   - CUBE_TOP
   - CUBE_BOTTOM
   - CUBE_BACK
+  - CUBE_MESH
   layers:
   - Default
   - TransparentFX
@@ -26,7 +27,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - CUBE_COLLISION
   - 
   - 
   - 

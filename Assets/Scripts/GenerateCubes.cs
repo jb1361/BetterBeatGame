@@ -28,7 +28,7 @@ public class GenerateCubes : MonoBehaviour {
         Projectile comp = clone.GetComponent<Projectile>();
         comp.velocity = 5;
         comp.projectile = clone;
-        int side = Random.Range(0, 3);
+        int side = Random.Range(0, 2);
 
         switch (side)
         {
@@ -39,10 +39,10 @@ public class GenerateCubes : MonoBehaviour {
                 comp.CollisionSide = Projectile.AcceptedCollision.LEFT;
                 break;
             case 2:
-                comp.CollisionSide = Projectile.AcceptedCollision.TOP;
+                comp.CollisionSide = Projectile.AcceptedCollision.RIGHT;                
                 break;
             case 3:
-                comp.CollisionSide = Projectile.AcceptedCollision.RIGHT;
+                comp.CollisionSide = Projectile.AcceptedCollision.TOP;
                 break;
             case 4:                
                 comp.CollisionSide = Projectile.AcceptedCollision.BACK;
