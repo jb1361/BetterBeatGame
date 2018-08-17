@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - bullet
+  - dontmove
+  - listlast
+  - wall
+  - floor
+  - weapon
+  - CUBE_FRONT
+  - CUBE_LEFT
   layers:
   - Default
   - TransparentFX
