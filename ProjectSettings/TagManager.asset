@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - bullet
+  - dontmove
+  - listlast
+  - wall
+  - floor
+  - weapon
+  - CUBE_FRONT
+  - CUBE_LEFT
+  - CUBE_RIGHT
+  - CUBE_TOP
+  - CUBE_BOTTOM
+  - CUBE_BACK
+  - CUBE_MESH
   layers:
   - Default
   - TransparentFX
@@ -14,7 +27,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - CUBE_COLLISION
   - 
   - 
   - 
